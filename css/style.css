@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: azure;
+}
+
+header{
+    background-color:rgb(133, 171, 207);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer {
+    background-color:rgb(133, 171, 207);
+    padding: 20px 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#about {
+    background-color: rgb(216, 238, 238);
+    text-align: center;
+    padding: 2rem;
+}
+
+#articles {
+    background-color: rgb(133, 171, 207);
+    
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 2rem;
+    color:plum;
+}
+
+nav {
+    padding: 2rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+li {
+    font-size: 25px
+}
+
+/* a:link {
+    color: rgb(32, 125, 206);
+}
+
+a:visited {
+    color: brown;
+}
+a:hover {
+    color: rgb(235, 186, 25);
+}
+a:focus {
+    color: rgb(196, 228, 15);
+}
+a:active {
+    color: rgb(21, 241, 14);
+} */
+
+nav a {
+    text-decoration: none;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+nav a:hover {
+    text-decoration: overline;
+}
+
+#articles li:nth-child(odd) {
+    background-color: rgb(233, 14, 160);
+}
+
+/* h2::after{
+    content: "new";
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: gold;
+} */
+a:hover {
+    color:maroon;
+}
+a:focus {
+    outline: salmon;
+}
+a:active{
+    color: lightskyblue;
+}
+figure img {
+    border: blue 10px dotted;
+}
+figure {
+    text-align: center;
+}
+footer img {
+    height: 50px;
+    margin-left: 2.5rem;
+    border: groove;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+li a:focus{
+    text-decoration: underline;
+}
+#info li:nth-child(odd){
+    list-style-position: inside;
+}
+.important::after{
+    content: "Важно!";
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: rgb(16, 211, 236);
+}
+p::first-line{
+    letter-spacing: 5px;
+}
+p:lang(en){
+    font-style: italic;
+}
+nav ul{
+    list-style: none;
+}
+img+p{
+    padding-top: 4em;
+}
+ #about p {
+    color: slategrey;
+ }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+table.table1 td,th{
+    border: blue solid 2px;
+}
+table.table1{
+    font-size: 2rem;
+    border: black solid 2px;
+    color: black;
+    border-collapse: collapse;
+    margin-left: 20px;
+    text-align: center;
+}
+table.table1 td:first-child{
+    width: 30%;
+    background-color: deeppink;
+}
+table.table1 td:last-child {
+    background-color: deeppink;
+}
+table.table1 td:nth-child(2) {
+    width: 10%;
+}
+table.table1 td:nth-child(4) {
+    width: 15%;
+}
+table.table1 td:nth-child(5) {
+    width: 20%;
+}
+table.table1 tr:nth-child(even) {
+    background-color: lightpink;
+}
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: wheat solid 1px;
+    background-color: darksalmon;
+}
+table {
+    margin: right;
+}
+
+
+
+
+
+
+
+
+
+
+#form-example{
+    background-color: aqua;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 25px;
+}
+#form-example input{
+    background-color: lightpink;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px coral;
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+#form-example input[type=submit]{
+    background-color: blueviolet;
+    color: azure;
+}
+#form-example input[type=reset] {
+    background-color: gray;
+    border: none;
+}
+#form-example input[type=radio] {
+    accent-color: rgb(85, 15, 199);
+    width: 20px;
+    height: 20px;
+}
+#form-example textarea {
+     background-color: lightpink;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px coral;
+    margin-top: 10px;
+    margin-bottom:  10px;
+    height: 100px;
+}
+#form-example textarea[disabled] {
+    background-color: lightgrey;
+    border: grey 1px solid;
+
+}
